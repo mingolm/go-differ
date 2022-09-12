@@ -21,7 +21,7 @@ type Gender uint8
 
 const (
 	GenderUnknown Gender = iota
-	GenderMale           = iota
+	GenderMale
 	GenderFemale
 	GenderNonBinary
 )

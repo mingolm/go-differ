@@ -1,4 +1,5 @@
 # go-differ
+
 通过反射的机制判断结构体任意字段是否有变动
 
 ```go
@@ -25,7 +26,7 @@ type Gender uint8
 
 const (
 	GenderUnknown Gender = iota
-	GenderMale           = iota
+	GenderMale
 	GenderFemale
 	GenderNonBinary
 )
